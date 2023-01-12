@@ -7,13 +7,18 @@
 
 import UIKit
 
+// 앱의 최초 실행
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+    // didFinishLaunchingWithOptions -> 가장 먼저 실행되는 func
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+    
+        // 일반적으로 화면 나오기 전 세팅을 구현
+        
         return true
     }
 
